@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url("./fonts/Nunito/Nunito-Regular.ttf");
+}
+@font-face {
+  font-family: 'Nunito-Bold';
+  src: url("./fonts/Nunito/Nunito-SemiBold.ttf");
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Nunito', -apple-system, sans-serif;
+  font-size: 1.05rem;
+}
+
+.heading {
+  font-weight: 900;
+}
+
+.heading-bold {
+  font-family: 'Nunito-Bold';
+}
+
+.subheading {
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
