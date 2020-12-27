@@ -18,7 +18,8 @@ class LogInForm extends React.Component {
     }
 
     verifyIfAlreadyLogged(auth) {
-        if(auth.user.role != null) {
+        console.log(auth.user)
+        if(auth.user != null) {
             console.log('already logged in')
             if(auth.role === 'base') {
                 return <Redirect to="/user/basedashboard"/>
